@@ -9,11 +9,14 @@ This project lets users browse, filter, and add movies in a simple interactive U
 - View a list of favorite movies
 - Filter movies by title and minimum rating
 - Add new movies with title, description, poster URL, and rating
+- View detailed information about each movie on a dedicated page
 - Responsive movie cards and simple form validation
+- Client-side routing with React Router
 
 ## Built With
 
 - React 19
+- React Router DOM 7
 - Vite
 - JavaScript (ESM)
 - ESLint
@@ -25,6 +28,7 @@ This project lets users browse, filter, and add movies in a simple interactive U
 - `src/components/Filter.jsx` - search and rating filter inputs
 - `src/components/MovieList.jsx` - renders the filtered list of movies
 - `src/components/MovieCard.jsx` - displays individual movie details
+- `src/components/MovieDetails.jsx` - detailed page view for individual movies
 - `src/App.css` - app styling
 - `src/main.jsx` - app entry point
 - `index.html` - Vite HTML template
@@ -69,8 +73,10 @@ npm run preview
 
 ## Usage
 
+- Browse the movie list on the main page.
 - Use the search input to filter movies by title.
 - Use the rating input to show only movies with a minimum rating.
+- Click on a movie card to view detailed information on a dedicated page.
 - Add a new movie using the form and click `Add Movie`.
 - New movies appear immediately in the list after submission.
 
